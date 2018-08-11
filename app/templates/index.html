@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/styles/styles.css">
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <img class="backgroundImage" src="../static/assets/powerlines.png" alt="">
+    <div class="main container-fluid">
+      <div class="results">
+        <div class="title">
+          <h1>InstantUtility</h1>
+        </div>
+        <form class="address-search row" style="right: 0vw">
+          <div class="form">
+            <label for="street">Street</label>
+            <input type="text" name="street" value="712 Steiner St." placeholder="Street" id="street" class="streetInput">
+            <label for="city">City</label>
+            <input type="text" name="city" value="San Francisco" placeholder="City" id="city" class="cityInput">
+            <label for="state">State</label>
+            <input type="text" name="state" value="CA" placeholder="State" class="stateInput">
+          </div>
+          <button type="button" name="button" class="submitBtn btn btn-default">Go!</button>
+        </form>
+        <div class="preselection">
+          <p>Input the address of any house to estimate the utility bill. Or just click Go!</p>
+        </div>
+        <div class="no-results-error">
+          Sorry, no results were found for this address.
+        </div>
+        <div class="main-searched-home row">
+
+        </div>
+        <div class="map row"></div>
+        <div class="slides-link">
+          See <a href="https://docs.google.com/presentation/d/e/2PACX-1vQpt-JCC8YDr6smXiZNMKPUH4dcMViIkKWBvklQ2h2kOIfYGjEm9jejUZuVmgR7nEeDW-RX-E4Z3GVR/embed?start=false&loop=false&delayms=3000" target="_blank">Google Slides</a> to learn more.
+        </div>
+      </div>
+    </div>
+    <div class="thumbnail-search-homes container-fluid"></div>
+  </body>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCnASJHKcfAG7egbpglxHb6lvSQhwTAnvk"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/gmaps@0.4.24/gmaps.js"></script>
+  <script type="text/javascript" src="../static/app.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</html>

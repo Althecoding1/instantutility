@@ -1,0 +1,176 @@
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.backgroundImage {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.1;
+  transition: 0.5s;
+}
+
+.address-search {
+  right: 0;
+  margin-bottom: 2em;
+  transition: 0.2s;
+}
+
+
+.submitBtn {
+  font-size: 2.5em;
+}
+
+.map {
+  display: inline-block;
+  height:  30vh;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.main {
+  position: absolute;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+label {
+  font-size: 2.1em;
+  opacity: 0.8;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+}
+
+input[type="text"] {
+  font-size: 1.8em;
+}
+
+.form {
+  display: inline-block;
+}
+
+.main-searched-home {
+  bottom: 30vh;
+  width: 100%;
+  display: inline-block;
+}
+
+.preselection {
+  margin-top: 1em;
+  font-size: 2.2em;
+  font-weight: bolder;
+}
+
+.slides-link {
+  position: absolute;
+  bottom: 2em;
+  width: 100%;
+  left: 0;
+  font-size: 1.2em;
+}
+
+.results {
+  height: 95%;
+  width: 100%;
+}
+
+.thumbnail-search-homes {
+  position: absolute;
+  display: none;
+  height: 100vh;
+  width: 22%;
+  right: 0;
+  top: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: white;
+  box-shadow: -1px 5px 10px grey;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.thumbnail-image {
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.thumbnail {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.image-text {
+  position: absolute;
+  display: inline-block;
+  color: white;
+  bottom: 20px;
+  left: 30px;
+  text-shadow: 1px 1px 1px black;
+  font-size: 2.5em;
+  z-index: 100;
+}
+
+.main-text {
+  display: inline-block;
+  font-size: 4.4em;
+  float: left;
+  color: black;
+  text-shadow: 1px 1px 1px grey;
+}
+
+.main-text .main-address {
+  font-size: 0.5em;
+}
+
+.main-image {
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 4em;
+  margin-bottom: 0.5em;
+}
+
+.title h1 {
+  font-size: 1em;
+}
+
+.thumbnail-search-homes img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.thumbnail-sqft-estimate {
+  font-size: 0.7em;
+}
+
+.no-results-error {
+  color: red;
+  display: none;
+}
+
+.thumbnail {
+  transition: 0.2s;
+}
+
+.thumbnail:hover {
+  border: 5px solid green;
+}
+
+.thumbnail-mouseover {
+  border: 5px solid green;
+}
